@@ -1,0 +1,395 @@
+
+      * {
+        font-family: "LG Smart", "Segoe UI", "Microsoft Sans Serif", sans-serif;
+      }
+      .logo1 {
+        width: 15vh;
+        height: 10vh;
+      }
+      
+      .bt1 {
+        width: 100px;
+        height: 30px;
+        font-size: 15 px;
+        color: brown;
+        border: solid brown;
+        border-radius: 5px;
+        background-color: white;
+        color: brown;
+        border-radius: 20px;
+      }
+      .navbar {
+        display: flex;
+        flex-direction: row;
+        /* border:2px solid red; */
+        height: 15vh;
+      }
+      /* .navbar>:nth-of-type(2){
+        align-items: flex-start;
+        padding-bottom: 1px;
+        border: 2px solid black;
+      }       */
+
+      .nav-right {
+        /* border:2px solid red; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: 2vh;
+      }
+
+      .nav-bottom {
+        display: flex;
+        flex-direction: row;
+      }
+      .nav-down {
+        display: flex;
+        flex-direction: column;
+      }
+      .nav-bottom > .sub1 {
+        padding-right: 35px;
+        text-align: center;
+      }
+      .nav-bottom > .sub2 {
+        padding-right: 35px;
+        text-align: center;
+      }
+      .nav-bottom > .sub3 {
+        padding-right: 35px;
+        text-align: center;
+      }
+      .nav-bottom > .sub4 {
+        padding-right: 35px;
+        text-align: center;
+      }
+      .nav-bottom > .sub5 {
+        padding-right: 35px;
+        text-align: center;
+      }
+      .nav-bottom > .sub6 {
+        padding-right: 35px;
+        text-align: center;
+      }
+      .nav-bottom > .sub7 {
+        padding-right: 35px;
+        text-align: center;
+      }
+      .nav-bottom > .sub8 {
+        padding-right: 130px;
+      }
+      .nav-bottom > img {
+        height: 25px;
+        width: 25px;
+        margin-right: 20px;
+        margin-top: 15px;
+      }
+      .main2 {
+        text-align: center;
+        border: 1px solid rgb(211, 206, 206);
+        height: 6vh;
+        padding-top: 15px;
+        background-color: rgb(249, 243, 243);
+        position: relative;
+      }
+      .main2 > button {
+        border-radius: 5px;
+        background-color: brown;
+        color: white;
+        padding-left: 13px;
+        padding-right: 13px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+      }
+      .main2 > img {
+        /* padding-left: 800px; */
+        height: 25px;
+        width: 25px;
+        position: absolute;
+        right: 10px;
+      }
+      .main4 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-top: 20px;
+      }
+      .sub1 {
+        padding-left: 100px;
+        padding-right: 50px;
+      }
+      .sub3 {
+        padding-right: 270px;
+      }
+      .main6 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        height: 350px;
+        gap: 23px;
+        padding-top: 30px;
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-bottom: 30px;
+      }
+      .main6 > div > img {
+        /* border: 2px solid yellow; */
+        height: 200px;
+        width: 200px;
+
+        padding-top: 20px;
+      }
+      .main6 > div {
+        border: 1px solid #bbb;
+        border-radius: 20px;
+        text-align: center;
+      }
+
+      .main8 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding-top: 20px;
+        height: 35 0px;
+        gap: 23px;
+        padding-top: 30px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 30px;
+      }
+      .main8 > div {
+        border: 1px solid #bbb;
+        border-radius: 20px;
+        text-align: center;
+      }
+
+      .main8 > div > img {
+        /* border: 2px solid yellow; */
+        height: 150px;
+        width: 150px;
+
+        padding-top: 20px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+      a:hover {
+        color: black;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:visited {
+        color: black;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      .main3 {
+        height: 100vh;
+        background-image: url("bg1.jpg");
+      }
+      .some {
+        background-image: url("HA-Banner-1600x400-2.jpg");
+        height: 60vh;
+      }
+      .main7 {
+        height: 60vh;
+        background-image: url("main6.jpg");
+      }
+      .main9 {
+        height: 50vh;
+        background-image: url("last.jpg");
+      }
+
+      .main10 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding-top: 20px;
+        height: 350px;
+        gap: 23px;
+        padding-top: 30px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 30px;
+      }
+      .main10 > div > img {
+        /* border: 2px solid yellow; */
+        height: 150px;
+        width: 150px;
+
+        padding-top: 50px;
+      }
+      .main10 > div {
+        border: 1px solid #bbb;
+        border-radius: 20px;
+        text-align: center;
+      }
+      .main11 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding-top: 20px;
+        height: 350px;
+        gap: 23px;
+        padding-top: 30px;
+        padding-left: 100px;
+        padding-right: 100px;
+        /* padding-bottom: 30px; */
+      }
+      .main11 > div > img {
+        /* border: 2px solid yellow; */
+        height: 80px;
+        width: 80px;
+        padding-top: 10px;
+      }
+      .main11 > div {
+        /* border: 1px solid #bbb;
+        border-radius: 20px; */
+        text-align: center;
+      }
+      .main12 {
+        text-align: center;
+        color: white;
+        background-color: black;
+      }
+      .main12 > button {
+        padding: 10px;
+        background-color: rgba(155, 4, 54, 0.799);
+        color: white;
+        border-radius: 5px;
+        width: 150px;
+        margin-bottom: 10px;
+      }
+      .main13 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-top: 20px;
+        gap: 10px;
+        /* text-align: center; */
+        padding-left: 50px;
+        padding-right: 100px;
+      }
+      .main13 > div > img {
+        /* border: 2px solid yellow; */
+        height: 342px;
+        width: 463px;
+
+        padding-top: 20px;
+      }
+      /* .main14>img{
+        width: 1000px;
+      } */
+      .main14 {
+        /* border: 2px solid black; */
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+          "dece1 dece2 dece3 dece3"
+          "dece1 dece4 dece4 dece5";
+        gap: 20px;
+        padding-left: 40px;
+        padding-right: 80px;
+        padding-top: 50px;
+      }
+
+      .dece1 {
+        grid-area: dece1;
+        /* border: 2px solid red; */
+      }
+      .dece2 {
+        grid-area: dece2;
+
+        /* border: 2px solid red; */
+      }
+      .dece3 {
+        grid-area: dece3;
+
+        /* border: 2px solid red; */
+      }
+      .dece4 {
+        grid-area: dece4;
+
+        /* border: 2px solid red; */
+      }
+      .dece5 {
+        grid-area: dece5;
+        /* border: 2px solid red;  */
+        padding-right: 105px;
+      }
+      .main15 {
+        padding: 50px;
+        padding-bottom: 50px;
+        /* border: 2px solid red; */
+        text-align: center;
+      }
+      .main16 {
+        /* display: flex;
+        flex-direction: row; */
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        text-align: center;
+      }
+      .ll1{
+        padding-top: 30px;
+        color:  black;
+      }
+      .main17{
+        text-align: center;
+        background-color: whitesmoke;
+      }
+      .ll2{
+        /* margin-top: 25px; */
+        padding-top: 30px;
+        color: black;
+      }
+      .lin1{
+        color: #bbb;
+      }
+      .lin2{
+        color: #bbb;
+      }
+      .main18{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* gap: 10px; */
+        /* padding-left: 250px;
+        padding-right: 250px; */
+        text-align: left;
+      }
+      .footer{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        /* border: 2px solid red; */
+      }
+      /* .footer>div{
+        /* border: 2px solid red; */
+      .footer{
+        padding-right: 250px;
+        background-color: rgb(255, 249, 249);
+      }
+      .last>.m1>img{
+        height: 20px;
+            width: 20px;
+            border-radius: 50%;
+      }
+      .last>.m2>img{
+        height: 30px;
+            width: 30px;
+            border-radius: 50%;
+      }
+      .last{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 10px;
+        padding-bottom: 20px;
+      }
+      .end{
+        background-color: rgb(67, 64, 64);
+        /* color: white; */
+      }
+      .emain{
+        display: flex;
+        flex-direction: row;
+        color: white;
+        justify-content: space-evenly;
+      }
+      .emain>.e1>a{
+        color: white;
+      }
